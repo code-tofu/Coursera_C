@@ -31,7 +31,7 @@ int i; //increment is by 1
 for(i = 0; i <30; i++)
 	{
  	interval = i/10.0; //this means sin will evaluate values from 0 to 3 with increments of 0.1
- 	printf("sin( %lf ) = %lf \t", interval, fabs(sin(interval))); //use abs instead of fabs for floating point values of interval
+ 	printf("sin( %lf ) = %lf \t", interval, fabs(sin(interval))); //use fabs instead of abs for floating point values of interval
 	}
 
 printf("\n+++++++\n"); //merely a divider
